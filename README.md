@@ -1,9 +1,9 @@
 # rammuduli.
-Hello there! I'm Mohit Virli, frontend engineer by profession, a creative at heart.
+Hello there! I'm Ram Muduli, Full Stack Developer by profession, a creative at heart.
 
 This the updated version of my personal website which is now in 3D. LFG!
 
-Checkout the live version at [mohitvirli.github.io](https://mohitvirli.github.io/)
+Checkout the live version at [rammuduli.vercel.app](https://rammuduli.vercel.app/)
 
 ## Tech Stack
 
