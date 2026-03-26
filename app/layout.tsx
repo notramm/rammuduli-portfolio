@@ -15,8 +15,8 @@ const vercettiFont = localFont({
 
 export const metadata: Metadata = {
   title: "Ram Muduli ✌️",
-  description: "A frontend developer by profession, a creative at heart.",
-  keywords: "Ram Muduli, Frontend Engineer, React Developer, Three.js, Creative Developer, Web Development, Angular, JavaScript, TypeScript, Portfolio",
+  description: "A Full Stack developer by profession, a creative at heart.",
+  keywords: "Ram Muduli, Frontend Developer, Backend Developer, React Developer, Three.js, Creative Developer, Web Development, JavaScript, TypeScript, Portfolio",
   authors: [{ name: "Ram Muduli" }],
   creator: "Ram Muduli",
   publisher: "Ram Muduli",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Ram Muduli - Frontend Engineer",
+    title: "Ram | Full Stack Developer",
     description: "Frontend engineer by profession, creative at heart.",
     url: "https://rammuduli.com",
     siteName: "Ram Muduli's Portfolio",
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ram Muduli - Frontend Engineer",
-    description: "Frontend engineer by profession, creative at heart.",
+    title: "Ram | Full Stack Developer",
+    description: "Full Stack developer by profession, creative at heart.",
   },
   verification: {
     google: "GsRYY-ivL0F_VKkfs5KAeToliqz0gCrRAJKKmFkAxBA",
@@ -66,7 +66,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="overscroll-y-none">
+    <html lang="en" className="overscroll-y-none" suppressHydrationWarning>
       <body
         className={`${soriaFont.variable} ${vercettiFont.variable} font-sans antialiased`}
       >
