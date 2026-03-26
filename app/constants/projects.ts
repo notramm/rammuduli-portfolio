@@ -63,6 +63,6 @@ export const PROJECTS: Project[] = [
 		date: "2026",
 		subtext:
 			"A personal portfolio website showcasing projects, skills, and experience with a clean and modern design.",
-		url: "https://porfolio.com/ram",
+		url: "https://rammuduli.vercel.app",
 	},
 ];
